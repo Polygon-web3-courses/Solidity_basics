@@ -1,15 +1,11 @@
-REMIX DEFAULT WORKSPACE
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created
-iii. There are no files existing in the File Explorer
 
 This workspace contains 3 directories:
 
-1. 'contracts': Holds three contracts with different complexity level, denoted with number prefix in file name.
-2. 'scripts': Holds two scripts to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract
+1. 'contracts': Holds contracts with different complexity level, denoted with number prefix in file name.
+2. 'scripts':   Holds two scripts to deploy a contract. It is explained below.
+3. 'tests':     Contains Solidity test files
+4. 'details':   Contains information about contracts explanation
 
 SCRIPTS
 
@@ -24,3 +20,4 @@ Output from script will appear in remix terminal.
 Please note, 'require' statement is supported in a limited manner for Remix supported modules.
 For now, modules supported by Remix are ethers, web3, swarmgw, chai, remix and hardhat only for hardhat.ethers object/plugin.
 For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE will be shown.'
+
